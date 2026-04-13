@@ -1,8 +1,8 @@
 {
-  "name": "pitch-trainer",
+  "name": "pitch",
   "version": "1.1.5",
   "private": true,
-  "homepage": "http://AdamGolota.github.io/pitch-trainer",
+  "homepage": "http://adamgolota.github.io/pitch",
   "dependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
