@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pitch/static/css/main.866b4e6a.chunk.css",
+    "main.js": "/pitch/static/js/main.de0e58e8.chunk.js",
+    "main.js.map": "/pitch/static/js/main.de0e58e8.chunk.js.map",
+    "runtime-main.js": "/pitch/static/js/runtime-main.8ab9dabb.js",
+    "runtime-main.js.map": "/pitch/static/js/runtime-main.8ab9dabb.js.map",
+    "static/js/2.b8693a52.chunk.js": "/pitch/static/js/2.b8693a52.chunk.js",
+    "static/js/2.b8693a52.chunk.js.map": "/pitch/static/js/2.b8693a52.chunk.js.map",
+    "index.html": "/pitch/index.html",
+    "precache-manifest.d800dbedb87ec1f1adb827a03265c6d3.js": "/pitch/precache-manifest.d800dbedb87ec1f1adb827a03265c6d3.js",
+    "service-worker.js": "/pitch/service-worker.js",
+    "static/css/main.866b4e6a.chunk.css.map": "/pitch/static/css/main.866b4e6a.chunk.css.map",
+    "static/js/2.b8693a52.chunk.js.LICENSE.txt": "/pitch/static/js/2.b8693a52.chunk.js.LICENSE.txt",
+    "static/media/flat.svg": "/pitch/static/media/flat.002288e7.svg",
+    "static/media/g.svg": "/pitch/static/media/g.acaa6129.svg",
+    "static/media/note.svg": "/pitch/static/media/note.155dc3c8.svg",
+    "static/media/sharp.svg": "/pitch/static/media/sharp.51fa938a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ab9dabb.js",
+    "static/js/2.b8693a52.chunk.js",
+    "static/css/main.866b4e6a.chunk.css",
+    "static/js/main.de0e58e8.chunk.js"
+  ]
+}
