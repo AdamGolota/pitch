@@ -1,6 +1,5 @@
 import React, {useState, useRef, useEffect} from 'react';
 import styled from 'styled-components';
-import ReactGA from 'react-ga';
 import './App.css';
 import G from './g.svg';
 import Sharp from './sharp.svg';
@@ -9,9 +8,25 @@ import Note from './note.svg';
 import packageJson from "../package.json";
 
 // ReactGA
+// ReactGA is no longer used, GA4 is loaded in index.html via script tag
+const ReactGA = {
+    send: (params) => {
+        if (window.gtag) {
+            window.gtag('event', 'page_view', params);
+        }
+    },
+    event: (params) => {
+        if (window.gtag) {
+            window.gtag('event', params.action, {
+                event_category: params.category,
+                value: params.value,
+                ...params
+            });
+        }
+    }
+};
 
-ReactGA.initialize('UA-138302548-2');
-ReactGA.pageview('/homepage');
+ReactGA.send({ page: "/homepage" });
 
 
 // --------------------------------PITCH TRAINER-------------------------------
@@ -464,7 +479,7 @@ function PitchTrainer() {
 
 
 function Info() {
-    ReactGA.modalview('info');
+    ReactGA.send({ hitType: "pageview", page: "info" });
 
     const [started, setStarted] = useState(false);
 
